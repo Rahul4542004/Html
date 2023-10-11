@@ -1,0 +1,187 @@
+.bodyLayout{
+    display : flex;
+    flex-direction:column;
+    justify-content : center;
+    align-items : center;
+}
+.continue{
+    background-color : rgba(0,0,0,0.8);
+    color : white;
+    display:flex;
+    justify-content: center;
+    align-items : center;
+    width : 400px;
+    height : 50px;
+    margin-left : 50px;
+}
+.outerDiv{
+    margin-top:100px;
+    width : 1000px;
+    height : 500px;
+    display : flex;
+    border-radius : 10%;
+    box-shadow : 5px 5px 5px 5px whitesmoke;
+}
+.innerDiv1{
+    width : 500px;
+    height : 500px;
+    background-color: rgba(0,0,255,1.0);
+    border-radius : 10%;
+    display : flex;
+    flex-direction:column;
+    align-items : center;
+    justify-content: center;
+    opacity : 0.8;
+}
+.innerDiv3{
+    width : 250px;
+    border-radius: 50%;
+    display : flex;
+    flex-direction:column;
+    align-items : center;
+    background-color: darkblue;
+    opacity : 0.9;
+}
+.innerDiv3 h1{
+    font-size:70px;
+}
+.innerDiv3 h2{
+    margin-top : -30px;
+}
+.innerDiv1 h2{
+    color : white;
+    opacity : 0.8;
+}
+.innerDiv1 h1{
+    color:white;
+    text-align:center;
+}
+.innerDiv1 p{
+    color : white;
+    text-align : center;
+    font-size : 16px;
+    opacity:0.7;
+}
+.innerDiv2{
+    width : 500px;
+    height : 500px;
+    border-radius : 10%;
+}
+.reaction{
+    display : flex;
+    width : 400px;
+    height : 50px;
+    background-color : rgba(255,0,0,0.05);
+    margin-left : 50px;
+}
+.reaction img{
+    width : 50px;
+    height : 25px;
+    margin-top : 10px;
+    padding-left : 15px;
+}
+.r1{
+    color : rgba(255,0,0,0.9);
+    padding-left : 15px;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    font-size : 16px;
+}
+.r2{
+    margin-left : 210px;
+    font-size : 16px;
+    display : flex;
+    align-items : center;
+    width: 300px;
+}
+.memory{
+    display : flex;
+    width : 400px;
+    height : 50px;
+    background-color : rgba(255,255,0,0.05);
+    margin-left : 50px;
+}
+.memory img{
+    width : 50px;
+    height : 25px;
+    margin-top : 10px;
+    padding-left : 15px;
+}
+.m1{
+    color : rgba(255,165,0,1.0);
+    padding-left : 15px;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    font-size : 16px;
+}
+.m2{
+    margin-left : 210px;
+    font-size : 16px;
+    display : flex;
+    align-items : center;
+    width: 300px;
+}
+.verbal{
+    display : flex;
+    width : 400px;
+    height : 50px;
+    background-color : rgba(0,255,0,0.05);
+    margin-left : 50px;
+}
+.verbal img{
+    width : 50px;
+    height : 25px;
+    margin-top : 10px;
+    padding-left : 15px;
+}
+.v1{
+    color : rgba(0,255,0,1.0);
+    padding-left : 15px;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    font-size : 16px;
+}
+.v2{
+    margin-left : 210px;
+    font-size : 16px;
+    display : flex;
+    align-items : center;
+    width: 300px;
+}
+.visual{
+    display : flex;
+    width : 400px;
+    height : 50px;
+    background-color : rgba(0,0,255,0.05);
+    margin-left : 50px;
+}
+.visual img{
+    width : 50px;
+    height : 25px;
+    margin-top : 10px;
+    padding-left : 15px;
+}
+.vi1{
+    color : rgba(0,0,255,1.0);
+    padding-left : 15px;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    font-size : 16px;
+}
+.vi2{
+    margin-left : 210px;
+    font-size : 16px;
+    display : flex;
+    align-items : center;
+    width: 300px;
+}
+@media screen and (min-width : 500px) and (max-width : 1000px){
+    .outerDiv{
+        flex-direction : column;
+        align-items: center;
+    }
+}
