@@ -7,12 +7,11 @@
 .continue{
     background-color : rgba(0,0,0,0.8);
     color : white;
-    display:flex;
-    justify-content: center;
-    align-items : center;
     width : 400px;
-    height : 50px;
+    font-size : 20px;
     margin-left : 50px;
+    height : 50px;
+    border-radius : 50px 50px 50px 50px; 
 }
 .outerDiv{
     margin-top:100px;
@@ -178,10 +177,4 @@
     display : flex;
     align-items : center;
     width: 300px;
-}
-@media screen and (min-width : 500px) and (max-width : 1000px){
-    .outerDiv{
-        flex-direction : column;
-        align-items: center;
-    }
 }
